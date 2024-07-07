@@ -154,3 +154,8 @@ REDIS_URL = f'{REDIS_HOST}://{REDIS_HOST}:{REDIS_PORT}/{REDIS_DB}'
 CELERY_BROKER_URL = env.str("CELERY_BROKER_URL", "redis://localhost:6379")
 CELERY_RESULT_BACKEND = env.str("CELERY_BROKER_URL", "redis://localhost:6379")
 CELERY_BEAT_SCHEDULER = 'django_celery_beat.schedulers:DatabaseScheduler'
+
+
+YOOKASSA_ACCOUNT_ID = env.str("YOOKASSA_ACCOUNT_ID")
+YOOKASSA_SECRET_KEY = env.str("YOOKASSA_SECRET_KEY")
+

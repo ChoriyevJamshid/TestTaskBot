@@ -11,7 +11,7 @@ $ pip install -r requirements.txt
 $ cp env.example .env
 ```
 
-## Management commands
+## Команды управления
 
 Команды управления:
 - `runbot` telegram запускает бота в *Long poolling*. (Чтобы проверить, работает ли бот, если у вас нет сайта или вы не разместили его на сервере) **Django не работает!**
